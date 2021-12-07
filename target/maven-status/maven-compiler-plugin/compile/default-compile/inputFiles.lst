@@ -1,0 +1,16 @@
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/models/Course.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/models/Section.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/models/User.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/daos/UserRestOrmDao.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/repositories/UserRestRepository.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/daos/UserJdbcDao.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/daos/CourseOrmDao.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/repositories/UserRepository.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/daos/UserOrmDao.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/repositories/SectionRepository.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/DemoApplication.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/models/Todo.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/daos/TodoDao.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/daos/SectionOrmDao.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/repositories/CourseRepository.java
+/Users/fsh/Desktop/CS3200/db_8/db-design-orm-assignment/src/main/java/com/example/springtemplate/repositories/TodoRepository.java
