@@ -1,7 +1,9 @@
 package com.example.springtemplate.daos;
 
 import com.example.springtemplate.models.Destination;
+import com.example.springtemplate.models.Trip;
 import com.example.springtemplate.repositories.DestinationRestRepository;
+import com.example.springtemplate.repositories.TripRestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -12,9 +14,29 @@ public class DestinationRestOrmDao {
   @Autowired
   DestinationRestRepository destinationRestRepository;
 
+  @Autowired
+  TripRestRepository tripRestRepository;
+
   @PostMapping("/api/destinations")
   public Destination createDestination(@RequestBody Destination destination) {
     return destinationRestRepository.save(destination);
+  }
+
+  @PostMapping("/api/trips/{tripId}/destinations")
+  public Destination createDestinationForTrip(
+      @PathVariable("tripId") Integer tid,
+      @RequestBody Destination destination) {
+    destination = destinationRestRepository.save(destination);
+    Trip trip = tripRestRepository.findById(tid).get();
+    destination.setTrip(trip);
+    return destinationRestRepository.save(destination);
+  }
+
+  @GetMapping("/api/trips/{tripId}/destinations")
+  public List<Destination> findDestinationsForTrip(
+      @PathVariable("tripId") Integer tid) {
+    Trip trip = tripRestRepository.findById(tid).get();
+    return trip.getDestinations();
   }
 
   @GetMapping("/api/destinations")

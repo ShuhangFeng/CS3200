@@ -38,11 +38,7 @@ const InlineDestinationEditor = ({destination, deletedestination, updatedestinat
                 {destinationCopy.location}
               </Link>
             </div>
-            {/*<div className="col-1">*/}
-            {/*  <Link to={`/destinations/${destinationCopy.id}/blogs`}>*/}
-            {/*    Blogs*/}
-            {/*  </Link>*/}
-            {/*</div>*/}
+
             <div className="col-2">
               <i className="fas fa-cog fa-2x float-right"
                  onClick={() => setEditing(true)}></i>

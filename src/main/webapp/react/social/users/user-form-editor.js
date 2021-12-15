@@ -11,16 +11,16 @@ const UserFormEditor = () => {
         }, []);
         const createUser = (user) =>
             userService.createUser(user)
-            .then(() => history.Back())
+            .then(() => history.back())
         const findUserById = (id) =>
             userService.findUserById(id)
             .then(user => setUser(user))
         const deleteUser = (id) =>
             userService.deleteUser(id)
-            .then(() => history.Back())
+            .then(() => history.back())
         const updateUser = (id, newUser) =>
             userService.updateUser(id, newUser)
-            .then(() => history.Back())
+            .then(() => history.back())
 
 
         return (
@@ -64,6 +64,7 @@ const UserFormEditor = () => {
                   setUser(user =>
                       ({...user, dateofbirth: e.target.value}))}
               value={user.dateofbirth}/>
+
             <br/>
                 <button
                     onClick={() => {

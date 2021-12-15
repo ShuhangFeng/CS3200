@@ -2,6 +2,7 @@ import tripService from "./trip-service"
 const {useParams, useHistory} = window.ReactRouterDOM;
 const {useState, useEffect} = React;
 const TripFormEditor = () => {
+  const history = useHistory()
   const {id} = useParams()
   const [trip, setTrip] = useState({})
   useEffect(() => {
@@ -11,16 +12,22 @@ const TripFormEditor = () => {
   }, []);
   const createTrip = (trip) =>
       tripService.createTrip(trip)
-      .then(() => history.Back())
+      .then(() => history.back())
   const findTripById = (id) =>
       tripService.findTripById(id)
       .then(trip => setTrip(trip))
   const deleteTrip = (id) =>
       tripService.deleteTrip(id)
-      .then(() => history.Back())
+      .then(() => history.back())
   const updateTrip = (id, newTrip) =>
       tripService.updateTrip(id, newTrip)
-      .then(() => history.Back())
+      .then(() => history.back())
+
+  const getDestinationRecords =  (id) =>
+      tripService.getDestinationRecords(id)
+
+  const getUserRecords = (id) =>
+      tripService.getUserRecords(id)
 
 
   return (
@@ -71,6 +78,16 @@ const TripFormEditor = () => {
             onClick={() => updateTrip(trip.id, trip)}>
           Save
         </button>
+
+        {/*<button*/}
+        {/*    onClick={() => getDestinationRecords(trip.id)}>*/}
+        {/*  DestinationsRecords*/}
+        {/*</button>*/}
+
+        {/*<button*/}
+        {/*    onClick={() => getUserRecords(trip.id)}>*/}
+        {/*  UsersRecords*/}
+        {/*</button>*/}
 
       </div>
   )

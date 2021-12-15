@@ -1,5 +1,7 @@
 package com.example.springtemplate.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import java.util.List;
 import javax.persistence.*;
 
 
@@ -14,6 +16,27 @@ public class Trip {
   private String started;
   private String ended;
 
+  @OneToMany(mappedBy = "trip")
+  @JsonIgnore
+  private List<User> users;
+
+  public List<User> getUsers() {
+    return users;
+  }
+  public void setUsers(List<User> users) {
+    this.users = users;
+  }
+
+  @OneToMany(mappedBy = "trip")
+  @JsonIgnore
+  private List<Destination> destinations;
+
+  public List<Destination> getDestinations() {
+    return destinations;
+  }
+  public void setDestinations(List<Destination> destinations) {
+    this.destinations = destinations;
+  }
 
   public Integer getId() { return id; }
   public void setId(Integer id) { this.id = id; }

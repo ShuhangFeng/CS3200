@@ -1,5 +1,7 @@
 package com.example.springtemplate.models;
 
+import com.example.springtemplate.daos.TripRestOrmDao;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
 
@@ -16,6 +18,12 @@ public class User {
     private String dateofbirth;
     private String email;
 
+    @ManyToOne
+    @JsonIgnore
+    private Trip trip;
+
+
+
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
     public String getFirstName() { return first_Name; }
@@ -30,6 +38,9 @@ public class User {
     public void setDateofbirth(String dateofbirth) { this.dateofbirth = dateofbirth; }
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
+    public Trip getTrip() { return trip; }
+    public void setTrip(Trip trip) { this.trip = trip; }
+
 
     public User(String username, String password, String firstName,
         String lastName, String email, String dateofbirth) {

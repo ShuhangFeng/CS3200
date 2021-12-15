@@ -11,16 +11,16 @@ const DestinationFormEditor = () => {
   }, []);
   const createDestination = (destination) =>
       destinationService.createDestination(destination)
-      .then(() => history.Back())
+      .then(() => history.back())
   const findDestinationById = (id) =>
       destinationService.findDestinationById(id)
       .then(destination => setDestination(destination))
   const deleteDestination = (id) =>
       destinationService.deleteDestination(id)
-      .then(() => history.Back())
+      .then(() => history.back())
   const updateDestination = (id, newDestination) =>
       destinationService.updateDestination(id, newDestination)
-      .then(() => history.Back())
+      .then(() => history.back())
 
 
   return (
