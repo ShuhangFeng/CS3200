@@ -26,6 +26,7 @@ a user interface that allows creating, reading, updating, and deleting (CRUDing)
 * Edit Screen - creates new records, or reads, update or remove an existing record
 * record being edited is on the many side of a 1 to many relationship, then add a link to the record on the 1 side's edit screen
 * record being edited is on the one side of a 1 to many relationship, add a single link that navigates to a list screen that displays the associated records on the many side
+<img width="727" alt="Screen Shot 2021-12-15 at 7 40 29 PM" src="https://user-images.githubusercontent.com/47334007/146287200-5cc20c19-40f1-4d37-9116-ab0d2f2b0c7c.png">
 
 
 
