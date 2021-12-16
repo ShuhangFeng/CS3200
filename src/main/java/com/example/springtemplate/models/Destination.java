@@ -1,6 +1,5 @@
 package com.example.springtemplate.models;
 
-import com.example.springtemplate.daos.TripRestOrmDao;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
@@ -29,6 +28,7 @@ public class Destination {
   public Trip getTrip() { return trip; }
   public void setTrip(Trip trip) {this.trip = trip; }
 
+  public Integer getTripId() { return trip.getId(); }
 
 
 

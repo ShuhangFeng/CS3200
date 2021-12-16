@@ -1,9 +1,12 @@
 import userService from "./user-service"
+
 const {useParams, useHistory} = window.ReactRouterDOM;
 const {useState, useEffect} = React;
 const UserFormEditor = () => {
+        const uHistory = useHistory()
         const {id} = useParams()
         const [user, setUser] = useState({})
+        const tripId = user["tripId"]
         useEffect(() => {
                 if(id !== "new") {
                       findUserById(id)
@@ -82,6 +85,11 @@ const UserFormEditor = () => {
                 <button
                     onClick={() => updateUser(user.id, user)}>
                         Save
+                </button>
+
+                <button
+                    onClick={() => uHistory.push(`/trips/${tripId}`)}>
+                  editTheTrip
                 </button>
 
         </div>

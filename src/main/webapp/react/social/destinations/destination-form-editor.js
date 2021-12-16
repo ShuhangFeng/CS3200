@@ -2,8 +2,10 @@ import destinationService from "./destination-service"
 const {useParams, useHistory} = window.ReactRouterDOM;
 const {useState, useEffect} = React;
 const DestinationFormEditor = () => {
+  const uHistory = useHistory()
   const {id} = useParams()
   const [destination, setDestination] = useState({})
+  const tripId = destination["tripId"]
   useEffect(() => {
     if(id !== "new") {
       findDestinationById(id)
@@ -58,6 +60,11 @@ const DestinationFormEditor = () => {
         <button
             onClick={() => updateDestination(destination.id, destination)}>
           Save
+        </button>
+
+        <button
+            onClick={() => uHistory.push(`/trips/${tripId}`)}>
+          editTheTrip
         </button>
 
       </div>

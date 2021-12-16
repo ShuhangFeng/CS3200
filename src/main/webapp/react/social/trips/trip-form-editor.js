@@ -79,15 +79,15 @@ const TripFormEditor = () => {
           Save
         </button>
 
-        {/*<button*/}
-        {/*    onClick={() => getDestinationRecords(trip.id)}>*/}
-        {/*  DestinationsRecords*/}
-        {/*</button>*/}
+        <button
+            onClick={() => getDestinationRecords(trip.id)}>
+          DestinationsRecords
+        </button>
 
-        {/*<button*/}
-        {/*    onClick={() => getUserRecords(trip.id)}>*/}
-        {/*  UsersRecords*/}
-        {/*</button>*/}
+        <button
+            onClick={() => getUserRecords(trip.id)}>
+          UsersRecords
+        </button>
 
       </div>
   )

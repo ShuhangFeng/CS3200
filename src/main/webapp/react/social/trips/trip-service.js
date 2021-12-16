@@ -1,36 +1,9 @@
-// import React, { useEffect } from "react";
-
 
 
 // TODO: declare URL where server listens for HTTP requests
 const TRIPS_URL = "http://localhost:8080/api/trips"
 
 
-// export function getDestinationRecords(id) {
-//
-//   useEffect(() => {
-//     window.location.href = `${TRIPS_URL}/${id}/destinations`;
-//   }, []);
-//
-//   return (
-//       <div>
-//         <h2>destinations</h2>
-//       </div>
-//   );
-// }
-//
-// export function getUserRecords(id) {
-//
-//   useEffect(() => {
-//     window.location.href = `${TRIPS_URL}/${id}/users`;
-//   }, []);
-//
-//   return (
-//       <div>
-//         <h2>users</h2>
-//       </div>
-//   );
-// }
 
 // TODO: retrieve all Trips from the server
 export const findAllTrips = () =>     fetch(TRIPS_URL)
@@ -69,13 +42,11 @@ export const updateTrip = (id, Trip) =>
     })
     .then(response => response.json())
 
-// export const getDestinationRecords = (id) =>
-//     fetch(`${TRIPS_URL}/${id}/destinations`)
-//     .then(response => response.json())
-//
-// export const getUsersRecords = (id) =>
-//     fetch(`${TRIPS_URL}/${id}/users`)
-//     .then(response => response.json())
+export const getDestinationRecords = (id) =>
+    window.location.replace(`${TRIPS_URL}/${id}/users`)
+
+export const getUserRecords = (id) =>
+    window.location.replace(`${TRIPS_URL}/${id}/users`)
 
 // TODO: export all functions as the API to this service
 export default {
@@ -84,6 +55,6 @@ export default {
   deleteTrip,
   createTrip,
   updateTrip,
-  // getDestinationRecords,
-  // getUserRecords
+  getDestinationRecords,
+  getUserRecords
 }

@@ -16,11 +16,7 @@ const InlineTripEditor = ({trip, deletetrip, updatetrip}) => {
                   onChange={(e)=>settripCopy(tripCopy => ({...tripCopy, name: e.target.value}))}/>
             </div>
 
-            {/*<div className="col-1">*/}
-            {/*  <Link to={`/trips/${tripCopy.id}/blogs`}>*/}
-            {/*    Blogs*/}
-            {/*  </Link>*/}
-            {/*</div>*/}
+
             <div className="col-2">
               <i className="fas fa-2x fa-check float-right margin-left-10px"
                  onClick={() => {
@@ -42,11 +38,8 @@ const InlineTripEditor = ({trip, deletetrip, updatetrip}) => {
                 {tripCopy.name}
               </Link>
             </div>
-            {/*<div className="col-1">*/}
-            {/*  <Link to={`/trips/${tripCopy.id}/blogs`}>*/}
-            {/*    Blogs*/}
-            {/*  </Link>*/}
-            {/*</div>*/}
+
+
             <div className="col-2">
               <i className="fas fa-cog fa-2x float-right"
                  onClick={() => setEditing(true)}></i>
