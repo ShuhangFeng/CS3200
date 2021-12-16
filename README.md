@@ -1,5 +1,8 @@
 # CS3200 Final Project Fall 2021
 Shuhang Feng <br> <br>
+
+Run the demoapplication, then run src/main/webapp/react/social/index.html 
+
 Problem statement <br>
 I love travelling, so I would like to create a simple application to record the place I have been to and activities I have done.
 
