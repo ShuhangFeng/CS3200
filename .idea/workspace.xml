@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b098db-575f-4fc9-a149-26b05755e30b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Destination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_blogs.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_follows.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_posts.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_ratings.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_replies.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_topics.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design/db_design_users.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/db_design_2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/alter-table-blogs-add-topic-enumerated-type.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/alter-table-replies-add-replies-2-replies.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/create-table-blogs.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/create-table-follows.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/create-table-ratings.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/create-table-replies.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/create-table-topics.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/create-users.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/drop-users.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/insert-topics.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/posts.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/querying-relational-databases/querying-relational-databases.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/sql/updating-relational-databases/updating-relational-databases.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/destinations/destination-form-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/destinations/destination-form-editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/trips/inline-trip-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/trips/inline-trip-editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-form-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-form-editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/users/user-form-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/users/user-form-editor.js" afterDir="false" />
-    </list>
+    <list default="true" id="63b098db-575f-4fc9-a149-26b05755e30b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,6 +23,27 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Trip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Todo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -113,19 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/react/social/destinations/inline-destination-editor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="156">
               <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,23 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="990">
-                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <first_editor relative-caret-position="1098">
+                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/react/social/users/user-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -448,7 +419,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46210000" />
+    <option name="totallyTimeSpent" value="46852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -527,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="278" column="40" selection-start-line="278" selection-start-column="40" selection-end-line="278" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Todo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -653,16 +617,6 @@
           <folding>
             <element signature="e#0#26#1" expanded="true" />
             <element signature="e#0#44#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Trip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,6 +769,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1098">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Destination.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -825,23 +789,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Todo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="108">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Trip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="990">
-            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
