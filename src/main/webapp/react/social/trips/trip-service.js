@@ -43,7 +43,7 @@ export const updateTrip = (id, Trip) =>
     .then(response => response.json())
 
 export const getDestinationRecords = (id) =>
-    window.location.replace(`${TRIPS_URL}/${id}/users`)
+    window.location.replace(`${TRIPS_URL}/${id}/destinations`)
 
 export const getUserRecords = (id) =>
     window.location.replace(`${TRIPS_URL}/${id}/users`)

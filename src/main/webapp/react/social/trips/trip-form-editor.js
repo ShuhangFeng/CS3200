@@ -2,7 +2,7 @@ import tripService from "./trip-service"
 const {useParams, useHistory} = window.ReactRouterDOM;
 const {useState, useEffect} = React;
 const TripFormEditor = () => {
-  const history = useHistory()
+  const uHistory = useHistory()
   const {id} = useParams()
   const [trip, setTrip] = useState({})
   useEffect(() => {
@@ -41,20 +41,23 @@ const TripFormEditor = () => {
                 setTrip(trip =>
                     ({...trip, name: e.target.value}))}
             value={trip.name}/>
-        <label>Local_season</label>
+        <br/>
+            <label>Local_season (choose from: summer, spring, fall, winter)</label>
         <input
             onChange={(e) =>
                 setTrip(trip =>
                     ({...trip, local_season: e.target.value}))}
             value={trip.local_season}/>
-
-        <label>Started</label>
+        <br/>
+        <label>Started (date format: xxxx(y)-xx(m)-xx(d))</label>
         <input
             onChange={(e) =>
                 setTrip(trip =>
                     ({...trip, started: e.target.value}))}
             value={trip.started}/>
-        <label>Ended</label>
+
+            <br/>
+        <label>Ended (date format: xxxx(y)-xx(m)-xx(d))</label>
         <input
             onChange={(e) =>
                 setTrip(trip =>

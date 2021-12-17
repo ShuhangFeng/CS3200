@@ -28,7 +28,7 @@ public class Destination {
   public Trip getTrip() { return trip; }
   public void setTrip(Trip trip) {this.trip = trip; }
 
-  public Integer getTripId() { return trip.getId(); }
+//  public Integer getTripId() { return trip.getId(); }
 
 
 

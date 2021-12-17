@@ -25,7 +25,9 @@ const TripList = () => {
                 <li className="list-group-item"
                     key={trip.id}>
                   <Link to={`/trips/${trip.id}`}>
-                    {trip.name}
+                    {trip.name},
+                    {trip.local_season},
+                    {trip.started}
                   </Link>
                 </li>)
           }
