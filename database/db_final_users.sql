@@ -34,7 +34,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`),
   KEY `FKahs12x3dh60vykfchgtlavt4c` (`trip_id`),
   CONSTRAINT `FKahs12x3dh60vykfchgtlavt4c` FOREIGN KEY (`trip_id`) REFERENCES `trips` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +43,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Jason1999','password',NULL,'1999-11-015','Jason14',NULL,1),(2,'Sean1999','password',NULL,'1999','Sean',NULL,1),(3,'Rosemarine2000','password',NULL,NULL,'Rosemarine',NULL,1),(4,'Max1997','password',NULL,NULL,'Max',NULL,2),(5,'test','test','test',NULL,'test',NULL,3),(6,'2','test2',NULL,NULL,NULL,NULL,3);
+INSERT INTO `users` VALUES (2,'Sean1999','password',NULL,'1999-11','Sean',NULL,1),(3,'Rosemarine2000','password',NULL,NULL,'Rosemarine',NULL,1),(4,'Max1997','password',NULL,NULL,'Max','kuian',2),(5,'test','test','test',NULL,'test',NULL,3),(6,'2','test2',NULL,NULL,NULL,NULL,3),(9,'Jamesthegoat',NULL,NULL,NULL,'James',NULL,15);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-12-15 19:54:59
+-- Dump completed on 2021-12-17 14:16:20

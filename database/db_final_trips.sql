@@ -29,7 +29,7 @@ CREATE TABLE `trips` (
   `started` date DEFAULT NULL,
   `ended` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `trips` (
 
 LOCK TABLES `trips` WRITE;
 /*!40000 ALTER TABLE `trips` DISABLE KEYS */;
-INSERT INTO `trips` VALUES (1,'alaska','spring','2020-02-28','2020-03-07'),(2,'yellowstoned','summer','2021-07-20','2021-07-25'),(3,'lalaland','summer',NULL,NULL);
+INSERT INTO `trips` VALUES (1,'alaskan123','spring','2020-02-28','2020-03-07'),(2,'yellowstoned','summer','2021-07-22','2021-07-25'),(3,'lalaland','summer','2020-10-11',NULL),(6,'boston','summer',NULL,NULL),(15,'florida','spring','2019-03-03','2019-03-08');
 /*!40000 ALTER TABLE `trips` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-12-15 19:55:00
+-- Dump completed on 2021-12-17 14:16:21

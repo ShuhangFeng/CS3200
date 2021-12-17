@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b098db-575f-4fc9-a149-26b05755e30b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtemplate/models/Destination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-form-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-form-editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/react/social/trips/trip-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_courses.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_destinations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_routines.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_sections.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_todos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_trips.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_final_users.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />

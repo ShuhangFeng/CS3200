@@ -30,7 +30,7 @@ CREATE TABLE `destinations` (
   PRIMARY KEY (`id`),
   KEY `FKnl5nchhgxgvf6anutp1j81qif` (`trip_id`),
   CONSTRAINT `FKnl5nchhgxgvf6anutp1j81qif` FOREIGN KEY (`trip_id`) REFERENCES `trips` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `destinations` (
 
 LOCK TABLES `destinations` WRITE;
 /*!40000 ALTER TABLE `destinations` DISABLE KEYS */;
-INSERT INTO `destinations` VALUES (1,'mantauska glacier','hiking,photography,1',1),(2,'fairbank',NULL,1),(3,'grand teton mountain','hiking',2),(4,'lalalake','chilling',3),(5,'hello','hell',3);
+INSERT INTO `destinations` VALUES (1,'mantauska glacier','hiking,photography,1',1),(3,'grand teton mountain','hiking',2),(7,'hello','chilling',NULL),(8,'Isbella gardener museum','sightseeing',NULL),(9,'Disneyland at Florida','amusement parking',15);
 /*!40000 ALTER TABLE `destinations` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-12-15 19:55:00
+-- Dump completed on 2021-12-17 14:16:22
